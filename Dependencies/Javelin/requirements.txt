@@ -1,0 +1,12 @@
+h5py
+matplotlib
+numpy
+pandas
+pip
+pytest-cov
+xarray
+pip
+ase
+diffpy.Structure
+periodictable
+cython
