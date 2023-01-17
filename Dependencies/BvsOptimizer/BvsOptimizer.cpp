@@ -1362,7 +1362,7 @@ void simulation::run_cycle(structure &s, double T1, double T2, double T3)
 
 /*------------------------------------------------------------------------------------------------------------------------*/
 
-PYBIND11_MODULE(BvsOpt, handle)
+PYBIND11_MODULE(BvsOptimizer, handle)
 {
     handle.doc() = "A simple Pybind11 wrapped C++ module for atomistic Monte Carlo simuluations"
                    "of local structure of disordered materials. It implements a "
