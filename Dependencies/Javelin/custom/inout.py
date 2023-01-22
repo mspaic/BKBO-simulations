@@ -406,7 +406,7 @@ class Scatty:
                         f.write("%6s %8.5f" % (
                             self.replacement_dict[key], stru.get_average_structure()[i][key]["occ"]))
                     else:
-                        f.write("%4s %8.5f" % (key, stru.get_average_structure()[i][key]["occ"]))
+                        f.write("%6s %8.5f" % (key, stru.get_average_structure()[i][key]["occ"]))
                 f.write("\n")
             f.close()
 
