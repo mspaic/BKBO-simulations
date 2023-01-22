@@ -1,5 +1,6 @@
-1. Compile Ising.cpp using GNU compiler:
-   g++ -Wall -O3 -march=native -fopenmp -o Ising.out Ising.cpp
+1. Compile Ising.cpp...
+   Using GNU compiler-> g++ -Wall -O3 -march=native -fopenmp -o Ising.out Ising.cpp
+
 
 2. Run with ./Ising.out and enter simulation parameters when prompted. Option "get_samples" 
    generates a specified number of equilibrium configurations while the option "sweep_doping" 
