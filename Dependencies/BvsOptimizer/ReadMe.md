@@ -1,3 +1,7 @@
+# BvsOptimizer
+
+## Description
+
 A simple Pybind11 wrapped C++ module for atomistic Monte Carlo
 modeling  of local structure of disordered materials. It
 implements a few simple interatomic interaction potentials
@@ -6,25 +10,19 @@ oxidation states using bond valence sum method from crystal
 chemistry, thereby providing a simple way of simulating the
 local bonding geometry of atoms within lattices.
 
------------------------------------------------------------------
+## Build and install
+ - Install dependencies listed in environment.yml file using e.g. conda
 
-Installation:
-1) Build by running:
+   `conda env update --file environment.yml`
 
- pyhon setup.py build_ext --inplace
+ - Build with setuptools
 
-2) Install to the current environment by running:
+   `python setup.py build_ext --inplace`
 
- pip install -e .
+ - Install with pip
 
------------------------------------------------------------------
+   `pip install -e .`
 
-Python dependencies are listed in environment.yml file.
-To install all dependencies in the active conda environment run
-
-conda env update --file environment.yml
-
-------------------------------------------------------------------
 
 NOTE: Compilation flags in setup.py presuppose that GNU compilers
 are set as default C/C++ compilers. If other compilers (msvc,
